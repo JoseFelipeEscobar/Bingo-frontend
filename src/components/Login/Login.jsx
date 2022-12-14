@@ -1,10 +1,12 @@
 import React from 'react';
-import { Component } from 'react';
+
 
 import './Login.css';
 
-class Login extends Component {
-  render() {
+function Login  (){
+function saludo(){
+  alert("Hola mi amor bonito, quieres compañia <3")
+}
     return (
       <div className="container">
         <div className="left">
@@ -13,7 +15,7 @@ class Login extends Component {
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Pass" />
 
-            <button>Sign In</button>
+            <button onClick={saludo()}>Sign In</button>
             <p>
               <a href="#">No estas registrado ?</a>
             </p>
@@ -26,5 +28,5 @@ class Login extends Component {
       </div>
     );
   }
-}
+
 export default Login;

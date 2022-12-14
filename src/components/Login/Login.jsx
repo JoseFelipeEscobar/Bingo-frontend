@@ -15,7 +15,7 @@ function saludo(){
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Pass" />
 
-            <button onClick={saludo()}>Sign In</button>
+            <button onClick={saludo}>Sign In</button>
             <p>
               <a href="#">No estas registrado ?</a>
             </p>

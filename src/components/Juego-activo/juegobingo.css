@@ -1,0 +1,12 @@
+.loby{
+    display: inline-flex;
+}
+.sideleft {
+    width: 50vw;
+}
+.sideright{
+    width: 50vw;
+}
+.title{
+  text-align: center;  
+}

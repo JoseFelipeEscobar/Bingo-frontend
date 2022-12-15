@@ -5,7 +5,7 @@ import './Login.css';
 
 function Login  (){
 function saludo(){
-  alert("Hola mi amor bonito, quieres compañia <3")
+  
 }
     return (
       <div className="container">

@@ -7,14 +7,14 @@ import TablaBingo from '../tabla-bingo/TablaBingo'
 export default class JuegoBingo extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="containerJuego">
                 <h1 className='title'>Salon de espera</h1>
                 <div className="loby">
                     <div className='sideleft'>
-                        <CartonBingo/>
+                        <CartonBingo />
                     </div>
                     <div className='sideright'>
-                        <TablaBingo/>
+                        <TablaBingo />
                     </div>
                 </div>
             </div>

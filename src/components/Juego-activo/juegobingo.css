@@ -1,12 +1,32 @@
+.containerJuego{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
 .loby{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    
 }
 .sideleft {
-    width: 50vw;
+    height: fit-content;
+    padding: 5%;
+    width: 40vw;
+    height: 100vh;
+    
+    
 }
 .sideright{
-    width: 50vw;
+    padding: 5%;
+    width: 60vw;
+
 }
 .title{
-  text-align: center;  
+  text-align: center; 
+  padding-left: 5%; 
+}
+
+#prueba{
+    
 }

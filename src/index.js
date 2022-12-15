@@ -8,6 +8,10 @@ import Login from './components/Login/Login';
 
 const container=document.getElementById('root');
 const root = ReactDOM.createRoot(container);
+root.render(
+    <React.StrictMode>
+      <Login/>
+    </React.StrictMode>
+  );
 
-
-root.render(<Login/>);
+// root.render(<Login/>);

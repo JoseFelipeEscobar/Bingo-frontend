@@ -1,8 +1,7 @@
 import './CartonBingo.css'
-import React, { Component } from 'react'
+import React from 'react'
 
-export class CartonBingo extends Component {
-    render() {
+export function CartonBingo (){
         return (
             <div className='carton-card'>
                 <table className='tabla-carton-bingo'>
@@ -53,7 +52,6 @@ export class CartonBingo extends Component {
                 </table>
             </div>
         )
-    }
 }
 
 export default CartonBingo;

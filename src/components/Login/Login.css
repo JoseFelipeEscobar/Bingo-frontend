@@ -8,6 +8,7 @@
     flex-direction: row;
     background-color: #1b4d79d7;
     text-align: center;
+    /* height: 100vh; */
 
 
 }
@@ -15,13 +16,14 @@
     width: 50vw;
     height: 100vh;
     background-color: #B799FF;
-    background-image: url("bingo.jpg");
+    background-image: url("https://i.imgur.com/1eZbcM4.jpg");
+    /* background-image: url("bingo.jpg"); */
     background-position: center center;
     background-size: 50vw ;
     background-repeat: no-repeat;
 }
 .container .blur{
-    width: 60vw;
+    width: 50vw;
     height: 100vh;
     background: rgb(2,0,36);
     background: rgb(34,193,195);
